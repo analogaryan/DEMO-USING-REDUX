@@ -1,0 +1,26 @@
+#table_design {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+
+#table_design td, #table_design th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+
+}
+
+
+#table_design tr:nth-child(even){background-color: #f2f2f2;}
+
+#table_design tr:hover {background-color: #ddd;}
+
+#table_design th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #046daa;
+    color: white;
+}
